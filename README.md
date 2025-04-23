@@ -12,11 +12,11 @@ This Excel-based dashboard provides a detailed and interactive exploration of my
 - **Total Records**: 145,000+ rows (one row per playback event)
 - **Key Columns**:
   - **Track Name**: Title of the song played
+  - **Timestamp**: Date & time when playback started (ISO format)
   - **Artist**: Primary performing artist
   - **Album**: Album title associated with the track
   - **Timestamp**: Date & time when playback started (ISO format)
-  - **Duration (ms)**: Total duration of the track or podcast in milliseconds
-  - **Playback Context**: Origin of play (e.g., playlist name, album view, radio)
+  - **Duration (min)**: Total duration of the track or podcast in minutes
   - **Platform**: Device used for playback (Mobile, Desktop, Web)
 
 ---
@@ -33,7 +33,7 @@ This Excel-based dashboard provides a detailed and interactive exploration of my
    - **Playtime (minutes)**: Computed from duration for better readability.
    - **Skip Flag**: Marked events where a track was stopped before 30 seconds as a skip.
 5. **Categorization**  
-   - Mapped playback contexts into broader categories (e.g., Playlists, Albums, Radio, Recommendations).
+   - Mapped playback contexts into broader categories (e.g., Albums, Tracks, Artists etc.).
 
 ---
 
@@ -62,8 +62,7 @@ This Excel-based dashboard provides a detailed and interactive exploration of my
 - **Time-of-Day by Platform**: Heatmap indicating preferred platform by hour of day.
 
 ### 6. Temporal Trends
-- **Day of Week Analysis**: Bar chart of plays by weekday, highlighting peak listening days.
-- **Monthly & Hourly Trends**: Line charts to visualize seasonal and daily listening patterns.
+- **Day of Week Analysis**: Line graph of plays by weekday, highlighting peak listening days.
 
 ---
 
@@ -73,12 +72,9 @@ This Excel-based dashboard provides a detailed and interactive exploration of my
    - Multi-level pivots for drilling into tracks, artists, albums, and time dimensions.
 2. **Slicers & Timeline Controls**  
    - **Year Slicer**: Quickly filter data by year.
-   - **Day of Week Slicer**: Toggle between Monday–Sunday views.
    - **Time Timeline**: Slide through months or quarters for fine-grained analysis.
 3. **Dynamic KPIs & Cards**  
    - Total playtime, skip rate, shuffle percentage, and most-used platform update dynamically based on slicer selections.
-4. **Heatmaps & Conditional Formatting**  
-   - Conditional color scales to highlight high and low listening periods in calendar-style views.
 
 ---
 
