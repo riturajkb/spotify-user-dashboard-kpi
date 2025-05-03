@@ -8,7 +8,7 @@ This Excel-based dashboard provides a detailed and interactive exploration of my
 
 ## 🔍 Data Description & Structure
 
-- **Data Source**: Exported JSON/CSV from Spotify Playback History
+- **Data Source**: Exported CSV from Spotify Playback History
 - **Total Records**: 145,000+ rows (one row per playback event)
 - **Key Columns**:
   - **Track Name**: Title of the song played
